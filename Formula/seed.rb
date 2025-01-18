@@ -1,7 +1,7 @@
 class Seed < Formula
   desc "Plant the seeds of your directory tree 🌱"
   homepage "https://github.com/jpwallace22/seed"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
   on_macos do
     if Hardware::CPU.arm?
