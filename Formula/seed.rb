@@ -6,19 +6,19 @@ class Seed < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jpwallace22/seed/releases/download/v#{version}/seed_#{version}_darwin_arm64.tar.gz"
-      sha256 "be0666b54fd3cc0d0a88734880f9146262dba332f228b4b8559d8c24ea5876f8" # darwin_arm64
+      sha256 "d4d1445cbbe809feeb6f5f7f9cfad61c2fe93a9be4c33c8f72e5b816f6d9e761" # darwin_arm64
     else
       url "https://github.com/jpwallace22/seed/releases/download/v#{version}/seed_#{version}_darwin_amd64.tar.gz"
-      sha256 "133daab55b594498b9a13683227b9d97cfe158fd52b48db71c8c30dabe62bd80" # darwin_amd64
+      sha256 "f6b072fd1e533b372a45d1e2c31f8fa07c8408de273da55c365a3a3565aa3704" # darwin_amd64
     end
   end
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/jpwallace22/seed/releases/download/v#{version}/seed_#{version}_linux_arm64.tar.gz"
-      sha256 "59c1d5051d035e8596fa6ba5bdbf1b7cc0476ae6f82827abfc1be85de5d9df7c" # linux_arm64
+      sha256 "6556ea36dc83d7b5795f21e39703b04383fdcdea49d1e6282d0b71551ef41e3b" # linux_arm64
     else
       url "https://github.com/jpwallace22/seed/releases/download/v#{version}/seed_#{version}_linux_amd64.tar.gz"
-      sha256 "541f55bfd1da17b1e085b942319f822e216ced9ef30121971682ec53f4c01360" # linux_amd64
+      sha256 "3016ab76b9f929c2df469905eef329a7bb561394996c2aebfbadee1cc73d7bf7" # linux_amd64
     end
   end
 
