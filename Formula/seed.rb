@@ -9,7 +9,7 @@ class Seed < Formula
       sha256 "be0666b54fd3cc0d0a88734880f9146262dba332f228b4b8559d8c24ea5876f8" # darwin_arm64
     else
       url "https://github.com/jpwallace22/seed/releases/download/v#{version}/seed_#{version}_darwin_amd64.tar.gz"
-      sha256 "133daab55b594498b9a13683227b9d97cfe158fd52b48db71c8c30dabe62bd80" # darwin_arm64
+      sha256 "133daab55b594498b9a13683227b9d97cfe158fd52b48db71c8c30dabe62bd80" # darwin_amd64
     end
   end
   on_linux do
