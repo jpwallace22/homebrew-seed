@@ -24,6 +24,7 @@ class Seed < Formula
 
   def install
     bin.install "seed"
+    system "#{bin}/seed", "man", man1
   end
 
   test do
